@@ -56,9 +56,12 @@ footer{background-color: #333333;
 footer p{color:#ffffff;
         font-size:10px; 
 } 
-h1{text-align: center;
+
+h1
+{text-align: center;
   font-size:210%;
    font-weight:900;
+  
  
    }
 
@@ -66,9 +69,13 @@ h2{text-align: center;
    color: #333333;
    font-weight:900;
    font-style:Bold;
-   
-}
-h3{text-align: center;
+    font-size:28px;
+     
+ 
+   }
+
+h3
+{text-align: center;
   Font-weight:100;
  
   }
@@ -86,13 +93,13 @@ Font-size:12px;
   color:#000000;
 }
 
-#logo_area
-{
+#logo_area{
             cursor: pointer;  
             background-size:10%;
             margin-right:auto;  
            
                   }
+
 
 
 #banner
@@ -109,4 +116,23 @@ Font-size:12px;
 
 #contact{
    padding:10px 0px 200px;
+}
+
+
+input[type=text]{
+    background: transparent;
+    border: none;
+   border-bottom: 1px solid #c2c2c2;
+  
+   width: 800px;
+  padding-bottom:45px;
+  
+}
+
+  
+  label{ 
+  color: #666666;
+  font-size:12px; 
+    position: absolute;
+    padding-top:15px;
 }
